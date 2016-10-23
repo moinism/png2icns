@@ -1,0 +1,30 @@
+{
+  "name": "png2icns",
+  "version": "0.0.1",
+  "bin": {
+    "png2icns": "./cli.js"
+  },
+  "dependencies": {
+    "fs-extra": "^0.30.0",
+    "commander": "^2.9.0"
+  },
+  "description": "A module to convert a .png file to an .icns file.",
+  "main": "png2icns.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/moinism/png2icns"
+  },
+  "keywords": [
+    "png",
+    "icns",
+    "iconutil",
+    "mac",
+    "convert"
+  ],
+  "author": "Moin Uddin <me@moin.im> (https://moin.im/)",
+  "license": "MIT"
+}
