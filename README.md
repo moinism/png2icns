@@ -18,12 +18,12 @@ $ png2icns file.png -s 16,32,64,128,256
 
 In JavaScript:
 ```javascript
-  png2icns({
-    in: 'file.png',
-    sizes: [16, 32, 64, 128, 256]
-  }, function () {
-    console.log('Successfully converted.');
-  });
+png2icns({
+  in: 'file.png',
+  sizes: [16, 32, 64, 128, 256]
+}, function () {
+  console.log('Successfully converted.');
+});
 ```
 
 
@@ -65,11 +65,13 @@ $ png2icns file.png -o file.icns -s 16,32,64,128,256,512 // sizes you want in yo
 
 
 ```javascript
-  png2icns({
-    in: 'file.png', // required
-    out: 'output.icns' // optional. .icns file name to save the file as. Default: icon.icns
-    sizes: [16, 32, 64, 128, 256, 512] // optional.
-  }, function () {
-    console.log('Successfully converted.');
-  });
+var png2icns = require('png2icns');
+
+png2icns({
+  in: 'file.png', // required
+  out: 'output.icns' // optional. .icns file name to save the file as. Default: icon.icns
+  sizes: [16, 32, 64, 128, 256, 512] // optional.
+}, function () {
+  console.log('Successfully converted.');
+});
 ```
