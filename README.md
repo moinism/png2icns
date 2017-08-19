@@ -5,7 +5,7 @@
 
 # png2icns
 
-> A command line and nodejs module to convert a .png file to an .icns file.
+> A command line and nodejs module to convert a .png file to an .icns file. Works on Mac only.
 
 It expects a `1024*1024` png file to convert. If your files is less in size then skip the maximum size in `options`.
 
